@@ -1,0 +1,39 @@
+body {
+	background: url(img/skin-light.jpg);
+}
+
+#mainlist {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+li {
+	color: white;
+	border: 1px dashed white;
+	border-radius: 8px;
+	margin-bottom: 2px;
+	list-style: none;
+	padding:  10px;
+	background: url(img/skin.jpg);
+}
+
+.passive {
+	background: url(img/skin.jpg);
+}
+.passive ul {
+	display: none;
+}
+
+#mainlist li:hover {
+	background: url(img/skin-dark.jpg);
+}
+
+.active {
+	background: url(img/skin-dark.jpg);
+}
+
+.active p {
+	display: block;
+	margin-left: 40px;
+}
+
